@@ -22,7 +22,7 @@ trim(input, sizeof(input));
 
 
 
-    char *get = find_word(list,input, sizeof(list)); // calling the function using pointer to get the memory
+    char *get = find_word(list,input,5); // calling the function using pointer to get the memory
 
 if(get != NULL){
     printf("word found \"%s\" ", get);
